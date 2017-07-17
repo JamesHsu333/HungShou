@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width， initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>產品列表</title>
+
+  <!-- CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <!-- JS -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/wow.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    new WOW().init();
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+
+    function topFunction() {
+      document.body.scrollTop = 0; // For Chrome, Safari and Opera
+      document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+  </script>
+</head>
+<body style="font-family:Microsoft JhengHei">
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top" style="z-index:222">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+            <img id="logo" src="images/logo.png">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">關於鴻碩
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="company.html">公司介紹</a></li>
+            <li><a href="cert.html">相關證明</a></li>
+          </ul>
+        </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="product.html">產品介紹
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="intro.html">數位時代的來臨</a></li>
+          <li><a href="product.html">產品列表</a></li>
+        </ul>
+      </li>
+        <li><a href="contact.html">聯絡我們</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- End of navbar -->
+  <div class="mainBanner">
+    <div id="title"  align="center" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInDown;">
+      <h1>產品介紹</h1>
+    </div>
+    <img class="banner" src="images/3.png">
+  </div>
+
+  <div id="breadcrumb">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+      <li class="breadcrumb-item active"><a href="product.html">產品介紹</a></li>
+      <li class="breadcrumb-item active"><a href="product.html">產品列表</a></li>
+    </ul>
+  </div>
+
+  <div class="container" style="margin-right: auto;  margin-left: auto;  padding-left: 3%;padding-right: 3%;width: 100%;position: relative;">
+  <div id="submenu">
+    <ul class="nav nav-tabs">
+      <li style="font-size: 24px;"><a href="intro.html">數位時代的來臨</a></li>
+      <li class="active"  style="font-size: 24px;"><a href="product.html">產品列表</a></li>
+    </ul>
+  </div><br><br>
+
+  <ul class="nav nav-pills nav-justified">
+  <li class="active" style="font-size: 22px;"><a data-toggle="pill" href="#home">地磅</a></li>
+  <li style="font-size: 22px;"><a data-toggle="pill" href="#menu1">工業台秤</a></li>
+  <li style="font-size: 22px;"><a data-toggle="pill" href="#menu2">重量感應器</a></li>
+  <li style="font-size: 22px;"><a data-toggle="pill" href="#menu3">工業吊秤</a></li>
+  <li style="font-size: 22px;"><a data-toggle="pill" href="#menu4">重量顯示器</a></li>
+  </ul><br>
+
+
+<div class="tab-content" id="product_intro">
+  <div id="home" class="tab-pane fade in active">
+    <div class="row">
+      <div class="col-sm-4  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+        <h2>地磅</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/HSM7806.jpg" target="_blank"><img class=" img-rounded" src="images/HSM7806.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+      </div>
+      <div class="col-sm-6 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/HSM7809.jpg" target="_blank"><img class=" img-rounded" src="images/HSM7809.jpg" style="margin-left: auto; margin-right: auto; width:100%"></a>
+      </div>
+    </div>
+
+    <br><br><div class"wow fadeInRight" data-wow-duration="1.2s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 1s; animation-name: fadeInRight;">
+      <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center"></hr>
+    </div><br><br>
+
+    <div class="row">
+      <div class="col-sm-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+        <h2>類比式/數位式配件</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/Analog_Catalog.jpg" target="_blank"><img class=" img-rounded" src="images/Analog_Catalog.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+      </div>
+      <div class="col-sm-6 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/Digital_Catalog.jpg" target="_blank"><img class=" img-rounded" src="images/Digital_Catalog.jpg" style="margin-left: auto; margin-right: auto; width:100%"></a>
+      </div>
+    </div>
+
+    <br><br>
+  </div>
+
+  <div id="menu1" class="tab-pane fade">
+    <div class="row">
+      <div class="col-sm-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+        <h2>工業台秤</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/HSM7808.jpg" target="_blank"><img class=" img-rounded" src="images/HSM7808.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+      </div>
+      <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/P2-A.jpg" target="_blank"><img class=" img-rounded" src="images/P2-A.jpg" style="margin-left: auto; margin-right: auto; width:100%"></a>
+      </div>
+      <div class="col-sm-4  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <a href="images/JWI300.jpg" target="_blank"><img class=" img-rounded" src="images/JWI300.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+      </div>
+    </div>
+
+  <br><br>
+  </div>
+
+  <div id="menu2" class="tab-pane fade">
+    <div class="row">
+      <div class="col-sm-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+        <h2>重量感應器 LOAD CELL</h2>
+      </div>
+    </div><br>
+    <div class="row">
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_HST.gif" style="margin-left: auto; margin-right: auto; width:45%; align: center ">
+        <h4>HST 拉力型 小桶槽秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 25~5000 kg<br/>
+        材質: 工具鋼/不鏽鋼<br/>
+        輸出: 3mv/v<br/>
+        <a href="images/HST_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_HSC.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>HSC 壓力型 大台秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>
+        重量: 250~5000 kg<br/>
+        材質: 工具鋼/不鏽鋼<br/>
+        輸出: 3mv/v<br/>
+        <a href="images/HSC_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_LOC_s.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>LOC 壓力型 小台秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>
+        重量: 5~500 kg<br/>
+        材質: 鋁合金<br/>
+        輸出: 2mv/v<br/>
+        <a href="images/LOC_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_PE-7.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>PE-7 壓力型 防水台秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 10~250 kg<br/>
+        材質: 不鏽鋼<br/>
+        輸出: 2mv/v<br/>
+        <a href="images/PE-7_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+
+      </div>
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_HSL.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>HSL 壓力型 重型台秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 10K 25K 50K 100K LBS<br/>
+        材質: 工具鋼<br/>
+        輸出: 4mv/v<br/>
+        <a href="images/HSL_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_DSR.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>DSR 壓力型 桶槽秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 1k~75k lbs<br/>
+        材質: 工具鋼/不鏽鋼<br/>
+        輸出: 3mv/v<br/>
+        <a href="images/DSR_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+      <br>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_BMLS.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>BMLS 壓力型 橋梁地磅</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 25 30 噸<br/>
+        材質: 工具鋼<br/>
+        輸出: 2mv/v<br/>
+        <a href="images/BMLS_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_HSP-4.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>HSP4 壓力型 坑式地磅</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 30 40 噸<br/>
+        材質: 工具鋼/不鏽鋼<br/>
+        輸出: 2mv/v<br/>
+        <a href="images/HSP4_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+      <div class="col-sm-4 wow fadeInUp" align="center" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <img class=" img-rounded" src="images/lc_320S.jpg" style="margin-left: auto; margin-right: auto; width:60%; align: center ">
+        <h4>320S 壓力型 大型槽秤</h4>
+        <hr style="width: 70%;height: 1px;display: block;position: relative;background: #F7F9F7;align:center;  margin-bottom: 0px;"></hr>
+        <p>重量: 50K 100K 200K LBS<br/>
+        材質: 工具鋼/不鏽鋼<br/>
+        輸出: 2mv/v<br/>
+        <a href="images/320S_detail.jpg" title="規格" target="_blank">詳細規格</a>
+        </p>
+      </div>
+    </div><br>
+
+  </div>
+
+  <div id="menu3" class="tab-pane fade">
+    <div class="row">
+      <div class="col-sm-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+        <h2>工業吊秤</h2>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-sm-4  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/UPW3000.jpg" target="_blank"><img class=" img-rounded" src="images/UPW3000.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+        </div>
+        <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/UPW5000CH.jpg" target="_blank"><img class=" img-rounded" src="images/UPW5000CH.jpg" style="margin-left: auto; margin-right: auto; width:100%"></a>
+        </div>
+        <div class="col-sm-4  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/UPW5000.jpg" target="_blank"><img class=" img-rounded" src="images/UPW5000.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+        </div>
+      </div>
+      <br><br>
+  </div>
+
+  <div id="menu4" class="tab-pane fade">
+    <div class="row">
+      <div class="col-sm-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+        <h2>重量顯示器</h2>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-sm-6  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/D2002EA.jpg" target="_blank"><img class=" img-rounded" src="images/D2002EA.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+        </div>
+        <div class="col-sm-6 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/GW1600.jpg" target="_blank"><img class=" img-rounded" src="images/GW1600.jpg" style="margin-left: auto; margin-right: auto; width:100%"></a>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="row">
+        <div class="col-sm-6  wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/JIK-6_INDICATOR.jpg" target="_blank"><img class=" img-rounded" src="images/JIK-6_INDICATOR.jpg"  style="margin-left: auto; margin-right: auto; width:100%" ></a>
+        </div>
+        <div class="col-sm-6 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="images/JWI-3000.jpg" target="_blank"><img class=" img-rounded" src="images/JWI-3000.jpg" style="margin-left: auto; margin-right: auto; width:100%"></a>
+        </div>
+      </div>
+      <br><br>
+  </div>
+
+  </div>
+</div>
+
+<button onclick="topFunction()" id="myBtn">Top</button>
+
+<div id="footer-menu" class="container-fluid text-center" style="line-height: 1.375em; background-color: #F7F9F7">
+  <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInDown;">
+    <div class="col-sm-4">
+      <br><h2><a href="company.html">關於鴻碩</a></h2><br>
+      <h4><a href="company.html">公司介紹</a></h4><br>
+      <h4><a href="cert.html">相關證明</a></h4><br>
+    </div>
+    <div class="col-sm-4">
+      <br><h2><a href="product.html">產品介紹</a></h2><br>
+      <h4><a href="intro.html">數位時代的來臨</a></h4><br>
+      <h4><a href="product.html">產品列表</a></h4><br>
+    </div>
+    <div class="col-sm-4">
+      <br><h2><a href="contact.html">聯絡我們</a></h2><br>
+    </div>
+  </div><br>
+</div>
+
+<footer class="container-fluid text-center" id="footer" style="background-color: #40599E">
+    <br>
+    <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" style="font-size: 16px; font-weight: normal; visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+      <div class="col-sm-4"><img id="logo" src="images/logo.png" style="width:30%;margin-top:15px;margin-bottom:20px"></div>
+      <div class="col-sm-4">
+        <p style="color:#e7e7e7;" align="center">鴻碩衡器製造有限公司</p>
+        <p style="color:#e7e7e7;" align="center">高雄市大樹區九曲里瓦厝街3巷32號</p>
+        <p style="color:#e7e7e7;" align="center">Hung Shou Scale Manufacturing INC.</p>
+      </div>
+      <div class="col-sm-4">
+        <p style="color:#e7e7e7;" align="center">0933306424</p>
+        <p style="color:#e7e7e7;" align="center">james3495@hotmail.com</p>
+        <p style="color:#e7e7e7;" align="center">TEL:07-5588995 FAX:07-5588997</p>
+      </div>
+    </div>
+
+</footer>
+  </body>
+</html>

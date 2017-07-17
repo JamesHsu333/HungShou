@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width， initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>數位時代的來臨</title>
+
+  <!-- CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+  <!-- JS -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below)， or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    new WOW().init();
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+
+    function topFunction() {
+      document.body.scrollTop = 0; // For Chrome， Safari and Opera
+      document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+  </script>
+</head>
+<body style="font-family:Microsoft JhengHei">
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+            <img id="logo" src="images/logo.png">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">關於鴻碩
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="company.html">公司介紹</a></li>
+            <li><a href="cert.html">相關證明</a></li>
+          </ul>
+        </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="product.html">產品介紹
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="intro.html">數位時代的來臨</a></li>
+          <li><a href="product.html">產品列表</a></li>
+        </ul>
+      </li>
+        <li><a href="contact.html">聯絡我們</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- End of navbar -->
+  <div class="mainBanner">
+    <div id="title"  align="center" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInDown;">
+      <h1>產品介紹</h1>
+    </div>
+    <img class="banner" src="images/3.png">
+  </div>
+
+  <div id="breadcrumb">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+      <li class="breadcrumb-item active"><a href="product.html">產品介紹</a></li>
+      <li class="breadcrumb-item active"><a href="intro.html">數位時代的來臨</a></li>
+    </ul>
+  </div>
+
+  <div class="container" style="margin-right: auto;  margin-left: auto;  padding-left: 3%;padding-right: 3%;width: 100%;position: relative;">
+  <div id="submenu">
+    <ul class="nav nav-tabs">
+      <li class="active" style="font-size: 24px;"><a href="intro.html">數位時代的來臨</a></li>
+      <li style="font-size: 24px;"><a href="product.html">產品列表</a></li>
+    </ul>
+  </div>
+
+  <div id="intro" class="container-fluid">
+    <div class="row">
+      <div class="page-header">
+        <br><h2 align="center" style="color:#0066cc">數位式衡器時代的來臨</h2>
+      </div>
+        <div class="col-sm-12">
+          <p>衡器在產業設備自動化中佔有不可或缺的角色，
+            精確度及穩定性也是產品成功失敗的關鍵。如何讓生產製造速度更快，
+            更精確而數值更穩定，科技導向直指數位化系統。</p>
+          <p>數位化衡器與一般電子式衡器有何不同:</p>
+          <p>一、	採用 RS485 傳輸介面連結</p>
+          <p>一座工廠有20只計量桶，而每一只計量桶皆有一只顯示器，如果要連接至控制室，
+            則要有20組控制線，所發費人力及金錢相當高。而數位化系統只要一條2-4芯信號
+            線。即可連結20只計量桶，並將訊號傳至控制室。</p>
+          <p>二、 避免傳輸線及干擾所造成誤差</p>
+          <p>由於IC科技的進步，集放大器，A/D，CPU，I/O等儀錶功能，皆縮小並置放在重量感應器內部。直接以RS485訊號傳輸，距離可達到1000公尺以上而不會有線損及
+            干擾的顧慮。</p><br>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="page-header">
+        <br><h2 align="center" style="color:#0066cc">數位式重量感應器</h2>
+      </div>
+        <div class="col-sm-12">
+          <p>一、 原 理</p>
+          <p>數位式重量感應器，是將重量感應器的類比訊號，直接在感應器內部
+            以集體電路轉換成數碼訊號。其外觀尺寸與類比式重量感應器並無
+            多大差異。</p><br>
+          <p>二、	特性</p>
+          <p>1.	數位通訊連結技術(Digital Communication Technology)</p><br>
+          <p>1-1	 RS485 通訊協定，實踐遠距傳輸的需求，＞1000 m 以上。</p>
+          <p>1-2	 高電位數位信號(3-4V)，可避免雜訊干擾。</p>
+          <p>1-3	 編輯程式便於1-32只 LOADCELL，即時共用同一系統。</p><br>
+          <p>2. 智慧軟體技術(Intelligent Technology)</p>
+          <p>2-1 無法以外部電路，操控及改變重量值，可避免作弊。</p>
+          <p>2-2 以軟體修正重量感應器的輸出特性，用於提高準確性。</p>
+          <p>2-3 具參數記憶功能。更換感應器，不需重新校正。</p>
+          <p>3. 數位校正技術(Digital Calibation Technology)</p><br>
+          <p>3-1 中心偏移(Off Center Load)校正一次完成。</p>
+          <p>3-2 線性校正(SPAN)一次完成。</p>
+          <p>3-3 校正不需使用標準砝碼，可直接以參數輸入SPAN及ZERO。</p>
+          <p>4. 錯誤偵察技術(Troubleshooting Technology)</p><br>
+          <p>4-1 即時檢測磅秤，基準零點變化的能力。</p>
+          <p>4-2 即時個別檢測，每一只重量感應器，基準零點變化的能力。</p>
+          <p>4-3 即時個別檢測，每一只重量感應器，通訊輸出變化的能力。</p>
+          <p>4-4 針對多種操作錯誤，提供即時警告及指示的能力。</p>
+          <br>
+        </div>
+    </div>
+  </div></div>
+  <button onclick="topFunction()" id="myBtn">Top</button>
+  <div id="footer-menu" class="container-fluid text-center" style="line-height: 1.375em; background-color: #F7F9F7">
+    <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInDown;">
+      <div class="col-sm-4">
+        <br><h2><a href="company.html">關於鴻碩</a></h2><br>
+        <h4><a href="company.html">公司介紹</a></h4><br>
+        <h4><a href="cert.html">相關證明</a></h4><br>
+      </div>
+      <div class="col-sm-4">
+        <br><h2><a href="product.html">產品介紹</a></h2><br>
+        <h4><a href="intro.html">數位時代的來臨</a></h4><br>
+        <h4><a href="product.html">產品列表</a></h4><br>
+      </div>
+      <div class="col-sm-4">
+        <br><h2><a href="contact.html">聯絡我們</a></h2><br>
+      </div>
+    </div><br>
+  </div>
+
+
+  <footer class="container-fluid text-center" id="footer" style="background-color: #40599E">
+      <br>
+      <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" style="font-size: 16px; font-weight: normal; visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+        <div class="col-sm-4"><img id="logo" src="images/logo.png" style="width:30%;margin-top:15px;margin-bottom:20px"></div>
+        <div class="col-sm-4">
+          <p style="color:#e7e7e7;" align="center">鴻碩衡器製造有限公司</p>
+          <p style="color:#e7e7e7;" align="center">高雄市大樹區九曲里瓦厝街3巷32號</p>
+          <p style="color:#e7e7e7;" align="center">Hung Shou Scale Manufacturing INC.</p>
+        </div>
+        <div class="col-sm-4">
+          <p style="color:#e7e7e7;" align="center">0933306424</p>
+          <p style="color:#e7e7e7;" align="center">james3495@hotmail.com</p>
+          <p style="color:#e7e7e7;" align="center">TEL:07-5588995 FAX:07-5588997</p>
+        </div>
+      </div>
+
+  </footer>
+  </body>
+</html>
