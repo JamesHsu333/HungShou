@@ -35,12 +35,20 @@
     border-color: transparent;
     color: #fff;
 }
+.container-fluid {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .panel {
     border: 1px solid #40599E;
     border-radius:0;
     transition: box-shadow 0.5s;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
 }
-
 .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
